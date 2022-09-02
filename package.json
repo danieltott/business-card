@@ -1,0 +1,18 @@
+{
+  "name": "@danieltott/business-card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts/index.mjs",
+  "scripts": {
+    "card": "node ./scripts/index.mjs"
+  },
+  "author": "danieltott",
+  "license": "ISC",
+  "bin": {
+    "danieltott": "./scripts/index.mjs"
+  },
+  "dependencies": {
+    "boxen": "^7.0.0",
+    "chalk": "^5.0.1"
+  }
+}
